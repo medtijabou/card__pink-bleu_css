@@ -36,7 +36,7 @@ transition:  all 3s linear;
     position: absolute;
     inset: 5px;
 
-background-color: #141414;
+background-color: #161616;
     border-radius: 15px;
 
 }
@@ -58,7 +58,7 @@ form{
     width: 180px;
     height: 244px;
     border-radius: 15px;
-    background-color: #141414;
+
     z-index: 10;
 }
 .input-group input {
@@ -66,21 +66,23 @@ form{
     border-radius: 10px;
     outline: none;
     background-color: transparent; /* fond transparent */
-    color: white; /* texte blanc */
+    color:  rgba(0, 255, 255, 0.3); 
     box-shadow: 0 2px 5px rgba(0, 255, 255, 0.3); /* petit glow léger */
     transition: 0.3s;
+  
 
 }
  label{
    color: rgba(0, 255, 255, 0.3);
-  
 }
 .input-group {
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-bottom: 20px;
+    
 }
+
 
 button{
     width: 100px;
